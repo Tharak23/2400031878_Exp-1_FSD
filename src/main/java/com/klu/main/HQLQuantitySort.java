@@ -16,7 +16,6 @@ public class HQLQuantitySort {
 
         q.list().forEach(p ->
             System.out.println(p.getName() + " : " + p.getQuantity()));
-
         session.close();
     }
 }
